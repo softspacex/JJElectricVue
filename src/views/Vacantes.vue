@@ -1,5 +1,9 @@
 <template>
-    <div>
-        <h1>Vacantes</h1>
-    </div>
-</template>
+    <default-layout></default-layout>
+ 
+ </template>
+ 
+ <script setup>
+ import DefaultLayout from "../layouts/DefaultLayout.vue";
+ 
+ </script>

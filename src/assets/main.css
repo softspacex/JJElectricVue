@@ -1,0 +1,54 @@
+@import './base.css';
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,700;1,300;1,400&display=swap");
+
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
+  }
+  
+  html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 5.5rem;
+    scroll-behavior: smooth;
+  }
+  
+  section {
+    padding: 18rem 9%;
+    margin-bottom: -26rem;
+  }
+  
+  section:nth-child(even) {
+    background: #fff;
+  }
+
+  @media (max-width: 450px) {
+    html {
+      font-size: 50%;
+    }
+
+  }
+  
+
+  @media (max-width: 991px) {
+    html {
+      font-size: 50%;
+    }
+    header {
+      padding: 1rem;
+    }
+  
+    section {
+      padding: 2rem;
+      margin-top: 15rem;
+    }
+  
+  }
+  

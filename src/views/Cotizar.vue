@@ -1,3 +1,9 @@
 <template>
-    <h1>Cotizar</h1>
-</template>
+    <default-layout></default-layout>
+ 
+ </template>
+ 
+ <script setup>
+ import DefaultLayout from "../layouts/DefaultLayout.vue";
+ 
+ </script>
