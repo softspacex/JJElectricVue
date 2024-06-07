@@ -3,14 +3,14 @@
     <div class="footer-left">
       <h3>JJ <span>Electric, S.A. Suplidores Eléctricos</span></h3>
 
-      <nav >
-        <RouterLink class="footer-links">Ubicación  </RouterLink>
+      <nav class="footer-links">
+        <a>Ubicación  </a>
         |
-        <RouterLink class="footer-links">Horarios </RouterLink>
+        <RouterLink>Horarios </RouterLink>
         |        
-        <RouterLink class="footer-links">Vacantes </RouterLink>
+        <RouterLink>Vacantes </RouterLink>
         |
-        <RouterLink class="footer-links">Nosotros</RouterLink>
+        <RouterLink>Nosotros</RouterLink>
       </nav>
     </div>
 
