@@ -69,17 +69,33 @@
     <cotizar-banner url="/cotiza.jpg"></cotizar-banner>
   </div>
 
-  <div class="text-center">
-    <h1 class="text-uppercase t-h1 mt-custom-2">
-      Distribuidores Autorizados De
-    </h1>
-  </div>
+  <article>
+    <delivery></delivery>
+  </article>
+
+  <article>
+    <div class="text-center">
+      <h1 class="text-uppercase t-h1 mt-custom-2">
+        Distribuidores Autorizados De
+      </h1>
+      <div class="carousel">
+        <distribuidores-carousel></distribuidores-carousel>
+      </div>
+    </div>
+  </article>
+
+  <article>
+    <the-footer></the-footer>
+  </article>
 </template>
 
 <script setup>
 import CardImage from "../components/CardImage.vue";
 import Carousel from "../components/Carousel.vue";
 import CotizarBanner from "../components/CotizarBanner.vue";
+import TheFooter from "../components/TheFooter.vue";
+import DistribuidoresCarousel from "../components/DistribuidoresCarousel.vue";
+import Delivery from "../components/Delivery.vue";
 import DefaultLayout from "../layouts/DefaultLayout.vue";
 </script>
 
