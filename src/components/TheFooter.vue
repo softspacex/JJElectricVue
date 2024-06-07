@@ -4,7 +4,7 @@
       <h3>JJ <span>Electric, S.A. Suplidores Eléctricos</span></h3>
 
       <nav class="footer-links">
-        <a>Ubicación  </a>
+        <RouterLink>Ubicación  </RouterLink>
         |
         <RouterLink>Horarios </RouterLink>
         |        
@@ -84,7 +84,6 @@
 
 <script setup>
 import { ref } from "vue";
-import { RouterLink } from "vue-router";
 const currentYear = ref("");
 
 currentYear.value = new Date().getFullYear();
