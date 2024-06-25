@@ -14,33 +14,55 @@
       </div>
     </div>
   </article>
-
-  <div class="cotizar-form-container">
-    <article class="cotizar-form">
-      <div class="mb-3">
-        <input type="text" class="form-control" placeholder="NOMBRE/EMPRESA" />
-      </div>
-      <div class="mb-3">
-        <input type="text" class="form-control" placeholder="RNC" />
-      </div>
-      <div class="mb-3">
-        <input type="email" class="form-control" placeholder="CORREO" />
-      </div>
-      <div class="mb-3">
-        <input type="text" class="form-control" placeholder="TELÉFONO" />
-      </div>
-      <div class="mb-3">
-        <textarea
-          class="form-control"
-          rows="3"
-          placeholder="MENSAJE"
-        ></textarea>
-      </div>
-      <div class="button-container col-auto">
-        <button type="submit" class="btn mb-3 btn-send">Enviar</button>
-      </div>
-    </article>
-  </div>
+  <form action="https://formspree.io/f/mvoedeeg" method="POST" target="_blank">
+    <div class="cotizar-form-container">
+      <article class="cotizar-form">
+        <div class="mb-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="NOMBRE/EMPRESA"
+            name="NOMBRE/EMPRESA"
+          />
+        </div>
+        <div class="mb-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="RNC"
+            name="RNC"
+          />
+        </div>
+        <div class="mb-3">
+          <input
+            type="email"
+            class="form-control"
+            placeholder="CORREO"
+            name="CORREO"
+          />
+        </div>
+        <div class="mb-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="TELÉFONO"
+            name="TELÉFONO"
+          />
+        </div>
+        <div class="mb-3">
+          <textarea
+            name="MENSAJE"
+            class="form-control"
+            rows="3"
+            placeholder="MENSAJE"
+          ></textarea>
+        </div>
+        <div class="button-container col-auto">
+          <button type="submit" class="btn mb-3 btn-send">Enviar</button>
+        </div>
+      </article>
+    </div>
+  </form>
 
   <article>
     <div class="container">
