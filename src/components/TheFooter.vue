@@ -4,11 +4,11 @@
       <h3>JJ <span>Electric, S.A. Suplidores Eléctricos</span></h3>
 
       <nav class="footer-links">
-        <RouterLink to="/">Ubicación  </RouterLink>
+        <RouterLink to="/">Ubicación </RouterLink>
         |
         <RouterLink to="/">Horarios </RouterLink>
-        |        
-        <RouterLink to="/">Vacantes </RouterLink>
+        |
+        <RouterLink to="/vacantes">Vacantes </RouterLink>
         |
         <RouterLink to="/sobrenosotros">Nosotros</RouterLink>
       </nav>

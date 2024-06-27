@@ -170,6 +170,9 @@ import TheFooter from "../components/TheFooter.vue";
   color: white;
   border-radius: 2rem;
 }
+.btn-send:hover {
+  background: var(--light-yellow);
+}
 .text-info {
   font-size: 25px;
   color: var(--dark-blue) !important;
